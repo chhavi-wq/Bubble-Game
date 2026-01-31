@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <div class='font-mono h-screen w-full bg-black items-center justify-center' id="main">
+    <div class="bg-gray-100 overflow-hidden rounded-[2vh] flex flex-col h-[screen] w-full" id="box">
+      <div class="text-white flex flex-row gap-10 px-60 justify-between p-5 h-[8vh] w-full bg-gray-800" id="navbar">
+         <div class='flex flex-row gap-5' id="elem">
+          <h1 class="font-bold py-1">Level</h1>
+          <div class='flex items-center justify-center text-black p-2 font-bold rounded-[1vh] bg-gray-100 h-[4vh] w-[4vh]'  id="level">1</div>
+        </div>
+        <div class='flex flex-row gap-5' id="elem">
+          <h1 class="font-bold py-1">Hit</h1>
+          <div class='flex items-center justify-center text-black p-2 font-bold rounded-[1vh] bg-gray-100 h-[4vh] w-[4vh]'  id="hit">9</div>
+        </div>
+        <div class='flex flex-row gap-5'  id="elem">
+          <h1  class="font-bold py-1">Timer</h1>
+          <div class='flex items-center justify-center text-black font-bold rounded-[1vh] bg-gray-100 h-[4vh] w-[4vh]' id="timer">45</div>
+        </div>
+        <div class='flex flex-row gap-5'  id="elem">
+          <h1  class="font-bold py-1">Score</h1>
+          <div class='flex items-center justify-center text-black font-bold rounded-[1vh] bg-gray-100 h-[4vh] w-[4vh]' id="option">0</div>
+        </div>
+      </div>
+      <div class="cursor-pointer m-h-[62vh] flex flex-wrap gap-3 p-5 w-full" id="p-bottom">
+
+      </div>
+    </div>
+  </div>
+  <script src="product.js"></script>
+</body>
+</html>
